@@ -1,2 +1,2 @@
 # MindFlare
-Recurrent Mind Map Editor
+_A recurrent mind map editor_

@@ -1,0 +1,13 @@
+{
+  "name": "ScreenBandit",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "google-youtube": "GoogleWebComponents/google-youtube#^1.1.3"
+  }
+}

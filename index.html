@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+	  
+    <title>MindFlare</title>
+
+	<meta name="apple-mobile-web-app-title" content="MindFlare">
+	<meta name="application-name" content="MindFlare">
+	<meta name="theme-color" content="#ffffff">
+	  
+    <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Product",
+      "name" : "MindFlare",
+      "image" : "https://screensailor.github.io/mindflare/AppIcon1024.png",
+      "description" : "TODO",
+      "brand" : {
+        "@type" : "Brand",
+        "name" : "Milos & Slavica"
+      }
+    }
+	</script>
+	  
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <link rel="import" href="bower_components/google-youtube/google-youtube.html">
+	  
+	<style>
+		body {
+			margin: 0px;
+			text-align: center;
+			background-color: white !important;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		body, h1, h2, p {
+			font-family: sans-serif;
+			font-weight: lighter;
+		}
+		h1, h2, p {
+			padding: 0.5em;	
+		}
+		h1 {
+			margin-bottom: 0px;
+		}
+		h2 {
+			margin-top: 0px;
+			font-size: 1.2em;
+		}
+		.smalltext {
+			font-size: 0.67em;
+		}
+		a {
+			text-decoration: none;
+			color: rgb(255, 102, 0);
+		}
+		a:hover {
+			color: rgb(255, 0, 157);
+		}
+		h1, a {
+			text-shadow: 
+				0em 0em 0.3em white,
+				0em 0.3em 0.2em rgba(0, 0, 0, 0.2);
+        }
+		google-youtube {
+  			width: 100vw !important;
+  			height: 56.25vw !important;
+  			max-width: 142.4vh !important;
+  			max-height: 80.1vh !important;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#app-store-badge {
+			margin: 1.2em;
+			text-align: center;
+        }
+		.nowrap {
+			white-space: nowrap;
+		}
+		article {
+			max-width: 42em;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: justify;
+		}
+		article li {
+			margin: 0.5em;
+		}
+	</style>
+  </head>
+  <body>
+	  <google-youtube 
+		list-type="playlist"
+		list="PLRl4mn8oR1enVaNs8GSM1McApKFgPkfx7"
+		video-id="14BzfydfcRo"
+		playsinline="1"
+		fluid="1"
+		loop="1"
+		rel="0">
+	  </google-youtube>
+
+	  <p class="smalltext">This is a YouTube playlist of tutorial videos.<br />Use the controls of the video player to navigate or just sit back and enjoy the playlist as a whole.</p>
+
+	  <h1>MindFlare</h1>
+
+	  <h2>
+	  	<span class="nowrap">Knowledge management,</span> <span class="nowrap">recurrent mind maps</span> and <span class="nowrap">code generators.</span>
+	  </h2>
+	  	  	  	  
+	  <div id="app-store-badge">
+	  	<a href="https://apps.apple.com/app/mindflare/id1608730167">
+	  		<img src="Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg">
+	  	</a>
+	  </div>
+
+	  <article>
+		<p>Naming things is hard... Naming things so that they amount to a system of ideas, features, or modules is frighteningly difficult. MindFlare is a namespace editor. Use it to create, edit and evolve your organisation's ontology, schemas, mind maps, task outlines and... well, names in general, so that together they amount to a unified system, fully expressive of your collective reality and aspirations.</p>
+		<p>We have great plans for MindFlare, but this first version can already be used to:</p>
+		<ul>
+			<li>Edit tree-like information, like mind maps and task outlines, that are much larger than would be feasible to edit using conventional mind map editors - see Alice in Wonderland example in the app with nearly 25,000 nodes!</li>
+			<li>Define inheritance relationships between nodes in the data graph that add enormous expressive power over plain tree data.</li>
+			<li>Create generative namespaces (or grammars) using such self-referential mind maps.</li>
+			<li>Export these grammars as code in any number of programming languages.</li>
+			<li>We are starting with just a couple of code generators, but the heart of MindFlare is developed as an open source library at <a href="https://github.com/screensailor/lexicon">github.com/screensailor/lexicon</a>, which you can extend with your own generators and, if you are so inclined, contribute a reference to them in LexiconGenerators module, which allows MindFlare to list them as additional export options, so everyone else can use them too :)</li>
+		</ul>
+		<p>MindFlare, self-referential mind maps, generative namespaces and lexicons open up a world of new opportunities to rethink software development. Ideas like ontology-driven development and semantic reactive programming have transformative effect on our approaches to analytics, personalisation and privacy, to say the least. We hope to explore these ideas in the YouTube playlist above.<link></p>
+	  </article>
+
+	  <p><a href="mailto:team@screensailor.net">team@<wbr>screensailor.net</a></p>
+	  	  
+	  <footer class="smalltext"> 
+	  	<p>MindFlare is developed by <a href="https://github.com/screensailor"><span class="nowrap">Milos & Slavica</span></a></p>
+	  </footer>
+  </body>
+</html>
