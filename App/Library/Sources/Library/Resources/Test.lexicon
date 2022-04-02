@@ -1,0 +1,26 @@
+test:
+	A:
+	= a
+	C:
+	= a.b.c
+	a:
+	+ test.a.b.c
+		b:
+		+ test.a
+			c:
+			+ test
+	first:
+		second:
+			third:
+	good:
+		better:
+			best:
+	one:
+	+ test.a
+		two:
+		+ test.a
+		+ test.first
+			three:
+			+ test.first
+			+ test.good
+			+ test.one

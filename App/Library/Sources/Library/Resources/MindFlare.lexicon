@@ -1,0 +1,101 @@
+app:
+	did:
+		launch:
+	document:
+		browser:
+			cli:
+			+ app.ui.cli
+			column:
+				cell:
+				+ app.ui.control
+				section:
+					heading:
+					+ app.ui.control
+			view:
+			+ app.ui.view
+		editor:
+		+ app.document.browser
+			search:
+			+ app.ui.search
+			show:
+				stats:
+		lexicon:
+			graph:
+				did:
+					change:
+					load:
+		view:
+		+ app.ui.view
+	menu:
+		edit:
+			cancel:
+			commit:
+				and:
+					enter:
+			copy:
+				lemma:
+				lexicon:
+			cut:
+			inherit:
+			paste:
+				default:
+				sentences:
+			recording:
+				start:
+				stop:
+			rename:
+			synonym:
+		file:
+			export:
+				json:
+					classes:
+				recording:
+				swift:
+					classes:
+						and:
+							protocols:
+		view:
+			back:
+			forward:
+			stats:
+			theme:
+				toggle:
+	ui:
+		cli:
+			append:
+			backspace:
+			commit:
+			did:
+				change:
+			enter:
+			lemma:
+				add:
+					inheritance:
+					protonym:
+				delete:
+				remove:
+					inheritance:
+					protonym:
+				rename:
+					to:
+			reset:
+			select:
+				next:
+				previous:
+		control:
+		+ app.ui.view
+			event:
+				tap:
+		search:
+			did:
+				end:
+				start:
+			prompt:
+			query:
+				did:
+					change:
+					submit:
+		view:
+			did:
+				appear:
+				disappear:

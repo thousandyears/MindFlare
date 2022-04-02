@@ -1,0 +1,57 @@
+/* No comment provided by engineer. */
+"app.menu.edit.commit" = "Commit";
+
+/* No comment provided by engineer. */
+"app.menu.edit.commit.and.enter" = "Commit & Enter";
+
+/* No comment provided by engineer. */
+"app.menu.edit.copy.lemma" = "Copy Lemma";
+
+/* No comment provided by engineer. */
+"app.menu.edit.copy.lexicon" = "Copy Lexicon";
+
+/* No comment provided by engineer. */
+"app.menu.edit.cut" = "Cut";
+
+/* No comment provided by engineer. */
+"app.menu.edit.inherit" = "Inherit from...";
+
+/* No comment provided by engineer. */
+"app.menu.edit.paste.default" = "Paste";
+
+/* No comment provided by engineer. */
+"app.menu.edit.paste.sentences" = "Paste Sentences";
+
+/* No comment provided by engineer. */
+"app.menu.edit.recording.start" = "Start Recording";
+
+/* No comment provided by engineer. */
+"app.menu.edit.recording.stop" = "Stop Recording";
+
+/* No comment provided by engineer. */
+"app.menu.edit.rename" = "Rename...";
+
+/* No comment provided by engineer. */
+"app.menu.edit.synonym" = "Synonym of...";
+
+/* No comment provided by engineer. */
+"app.menu.file.export" = "Export";
+
+/* No comment provided by engineer. */
+"app.menu.view.back" = "Back";
+
+/* No comment provided by engineer. */
+"app.menu.view.forward" = "Forward";
+
+/* No comment provided by engineer. */
+"app.menu.view.stats" = "Show Stats";
+
+/* No comment provided by engineer. */
+"app.menu.view.theme.toggle" = "Toogle Theme";
+
+/* No comment provided by engineer. */
+"app.ui.search.prompt" = "twinkle twin sta";
+
+/* No comment provided by engineer. */
+"Toggle smooth animations" = "Toggle Animations";
+

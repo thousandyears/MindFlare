@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="MindFlare/en.lproj/InfoPlist.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.2.1" build-num="13C100"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>MindFlare</source>
+        <target>MindFlare</target>
+        <note>Bundle name</note>
+      </trans-unit>
+      <trans-unit id="NSHumanReadableCopyright" xml:space="preserve">
+        <source>Milos &amp; Slavica 2022</source>
+        <target>Milos &amp; Slavica 2022</target>
+        <note>Copyright (human-readable)</note>
+      </trans-unit>
+      <trans-unit id="TaskPaper" xml:space="preserve">
+        <source>TaskPaper</source>
+        <target>TaskPaper</target>
+        <note/>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="MindFlare/en.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.2.1" build-num="13C100"/>
+    </header>
+    <body>
+      <trans-unit id="Animate" xml:space="preserve">
+        <source>Animate</source>
+        <target>Animate</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Dark Theme" xml:space="preserve">
+        <source>Dark Theme</source>
+        <target>Dark Theme</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Do not animate" xml:space="preserve">
+        <source>Do not animate</source>
+        <target>Do not animate</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Hi" xml:space="preserve">
+        <source>Hi</source>
+        <target>Hi</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Inheritance &#9;%@" xml:space="preserve">
+        <source>Inheritance 	%@</source>
+        <target>Inheritance 	%@</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Just for you, Ollie!" xml:space="preserve">
+        <source>Just for you, Ollie!</source>
+        <target>Just for you, Ollie!</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Lexicon &#9;&#9;%@" xml:space="preserve">
+        <source>Lexicon 		%@</source>
+        <target>Lexicon 		%@</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Light Theme" xml:space="preserve">
+        <source>Light Theme</source>
+        <target>Light Theme</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="MindFlare" xml:space="preserve">
+        <source>MindFlare</source>
+        <target>MindFlare</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Name" xml:space="preserve">
+        <source>Name</source>
+        <target>Name</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="New Sentences from Clipboard" xml:space="preserve">
+        <source>New Sentences from Clipboard</source>
+        <target>New Sentences from Clipboard</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="New from Clipboard" xml:space="preserve">
+        <source>New from Clipboard</source>
+        <target>New from Clipboard</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="No inheritance" xml:space="preserve">
+        <source>No inheritance</source>
+        <target>No inheritance</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Nodes &#9;&#9;%@" xml:space="preserve">
+        <source>Nodes 		%@</source>
+        <target>Nodes 		%@</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Show Stats (⌘ L)" xml:space="preserve">
+        <source>Show Stats (⌘ L)</source>
+        <target>Show Stats (⌘ L)</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Stats" xml:space="preserve">
+        <source>Stats</source>
+        <target>Stats</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Synonyms &#9;%@" xml:space="preserve">
+        <source>Synonyms 	%@</source>
+        <target>Synonyms 	%@</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="System Theme" xml:space="preserve">
+        <source>System Theme</source>
+        <target>System Theme</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Toggle smooth animations" xml:space="preserve">
+        <source>Toggle smooth animations</source>
+        <target>Toggle Animations</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app" xml:space="preserve">
+        <source>app</source>
+        <target>app</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.did" xml:space="preserve">
+        <source>app.did</source>
+        <target>app.did</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.did.launch" xml:space="preserve">
+        <source>app.did.launch</source>
+        <target>app.did.launch</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.document" xml:space="preserve">
+        <source>app.document</source>
+        <target>app.document</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.document.browser" xml:space="preserve">
+        <source>app.document.browser</source>
+        <target>app.document.browser</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.document.browser.cli" xml:space="preserve">
+        <source>app.document.browser.cli</source>
+        <target>app.document.browser.cli</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.document.browser.column" xml:space="preserve">
+        <source>app.document.browser.column</source>
+        <target>app.document.browser.column</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.document.browser.column.cell" xml:space="preserve">
+        <source>app.document.browser.column.cell</source>
+        <target>app.document.browser.column.cell</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.document.browser.column.section" xml:space="preserve">
+        <source>app.document.browser.column.section</source>
+        <target>app.document.browser.column.section</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.document.browser.column.section.heading" xml:space="preserve">
+        <source>app.document.browser.column.section.heading</source>
+        <target>app.document.browser.column.section.heading</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.document.browser.view" xml:space="preserve">
+        <source>app.document.browser.view</source>
+        <target>app.document.browser.view</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.document.editor" xml:space="preserve">
+        <source>app.document.editor</source>
+        <target>app.document.editor</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.document.editor.search" xml:space="preserve">
+        <source>app.document.editor.search</source>
+        <target>app.document.editor.search</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.document.editor.show" xml:space="preserve">
+        <source>app.document.editor.show</source>
+        <target>app.document.editor.show</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.document.editor.show.stats" xml:space="preserve">
+        <source>app.document.editor.show.stats</source>
+        <target>app.document.editor.show.stats</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.document.lexicon" xml:space="preserve">
+        <source>app.document.lexicon</source>
+        <target>app.document.lexicon</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.document.lexicon.graph" xml:space="preserve">
+        <source>app.document.lexicon.graph</source>
+        <target>app.document.lexicon.graph</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.document.lexicon.graph.did" xml:space="preserve">
+        <source>app.document.lexicon.graph.did</source>
+        <target>app.document.lexicon.graph.did</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.document.lexicon.graph.did.change" xml:space="preserve">
+        <source>app.document.lexicon.graph.did.change</source>
+        <target>app.document.lexicon.graph.did.change</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.document.lexicon.graph.did.load" xml:space="preserve">
+        <source>app.document.lexicon.graph.did.load</source>
+        <target>app.document.lexicon.graph.did.load</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.document.view" xml:space="preserve">
+        <source>app.document.view</source>
+        <target>app.document.view</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu" xml:space="preserve">
+        <source>app.menu</source>
+        <target>app.menu</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.edit" xml:space="preserve">
+        <source>app.menu.edit</source>
+        <target>app.menu.edit</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.edit.cancel" xml:space="preserve">
+        <source>app.menu.edit.cancel</source>
+        <target>app.menu.edit.cancel</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.edit.commit" xml:space="preserve">
+        <source>Commit</source>
+        <target>Commit</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.edit.commit.and" xml:space="preserve">
+        <source>app.menu.edit.commit.and</source>
+        <target>app.menu.edit.commit.and</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.edit.commit.and.enter" xml:space="preserve">
+        <source>Commit &amp; Enter</source>
+        <target>Commit &amp; Enter</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.edit.copy" xml:space="preserve">
+        <source>app.menu.edit.copy</source>
+        <target>app.menu.edit.copy</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.edit.copy.lemma" xml:space="preserve">
+        <source>Copy Lemma</source>
+        <target>Copy Lemma</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.edit.copy.lexicon" xml:space="preserve">
+        <source>Copy Lexicon</source>
+        <target>Copy Lexicon</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.edit.cut" xml:space="preserve">
+        <source>Cut</source>
+        <target>Cut</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.edit.inherit" xml:space="preserve">
+        <source>Inherit from...</source>
+        <target>Inherit from...</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.edit.paste" xml:space="preserve">
+        <source>app.menu.edit.paste</source>
+        <target>app.menu.edit.paste</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.edit.paste.default" xml:space="preserve">
+        <source>Paste</source>
+        <target>Paste</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.edit.paste.sentences" xml:space="preserve">
+        <source>Paste Sentences</source>
+        <target>Paste Sentences</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.edit.recording" xml:space="preserve">
+        <source>app.menu.edit.recording</source>
+        <target>app.menu.edit.recording</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.edit.recording.start" xml:space="preserve">
+        <source>Start Recording</source>
+        <target>Start Recording</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.edit.recording.stop" xml:space="preserve">
+        <source>Stop Recording</source>
+        <target>Stop Recording</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.edit.rename" xml:space="preserve">
+        <source>Rename...</source>
+        <target>Rename...</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.edit.synonym" xml:space="preserve">
+        <source>Synonym of...</source>
+        <target>Synonym of...</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.file" xml:space="preserve">
+        <source>app.menu.file</source>
+        <target>app.menu.file</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.file.export" xml:space="preserve">
+        <source>Export</source>
+        <target>Export</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.file.export.json" xml:space="preserve">
+        <source>app.menu.file.export.json</source>
+        <target>app.menu.file.export.json</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.file.export.json.classes" xml:space="preserve">
+        <source>app.menu.file.export.json.classes</source>
+        <target>app.menu.file.export.json.classes</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.file.export.recording" xml:space="preserve">
+        <source>app.menu.file.export.recording</source>
+        <target>app.menu.file.export.recording</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.file.export.swift" xml:space="preserve">
+        <source>app.menu.file.export.swift</source>
+        <target>app.menu.file.export.swift</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.file.export.swift.classes" xml:space="preserve">
+        <source>app.menu.file.export.swift.classes</source>
+        <target>app.menu.file.export.swift.classes</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.file.export.swift.classes.and" xml:space="preserve">
+        <source>app.menu.file.export.swift.classes.and</source>
+        <target>app.menu.file.export.swift.classes.and</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.file.export.swift.classes.and.protocols" xml:space="preserve">
+        <source>app.menu.file.export.swift.classes.and.protocols</source>
+        <target>app.menu.file.export.swift.classes.and.protocols</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.view" xml:space="preserve">
+        <source>app.menu.view</source>
+        <target>app.menu.view</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.view.back" xml:space="preserve">
+        <source>Back</source>
+        <target>Back</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.view.forward" xml:space="preserve">
+        <source>Forward</source>
+        <target>Forward</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.view.stats" xml:space="preserve">
+        <source>Show Stats</source>
+        <target>Show Stats</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.view.theme" xml:space="preserve">
+        <source>app.menu.view.theme</source>
+        <target>app.menu.view.theme</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.menu.view.theme.toggle" xml:space="preserve">
+        <source>Toogle Light &amp; Dark Mode</source>
+        <target>Toogle Theme</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui" xml:space="preserve">
+        <source>app.ui</source>
+        <target>app.ui</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.cli" xml:space="preserve">
+        <source>app.ui.cli</source>
+        <target>app.ui.cli</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.cli.append" xml:space="preserve">
+        <source>app.ui.cli.append</source>
+        <target>app.ui.cli.append</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.cli.backspace" xml:space="preserve">
+        <source>app.ui.cli.backspace</source>
+        <target>app.ui.cli.backspace</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.cli.commit" xml:space="preserve">
+        <source>app.ui.cli.commit</source>
+        <target>app.ui.cli.commit</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.cli.did" xml:space="preserve">
+        <source>app.ui.cli.did</source>
+        <target>app.ui.cli.did</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.cli.did.change" xml:space="preserve">
+        <source>app.ui.cli.did.change</source>
+        <target>app.ui.cli.did.change</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.cli.enter" xml:space="preserve">
+        <source>app.ui.cli.enter</source>
+        <target>app.ui.cli.enter</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.cli.lemma" xml:space="preserve">
+        <source>app.ui.cli.lemma</source>
+        <target>app.ui.cli.lemma</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.cli.lemma.add" xml:space="preserve">
+        <source>app.ui.cli.lemma.add</source>
+        <target>app.ui.cli.lemma.add</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.cli.lemma.add.inheritance" xml:space="preserve">
+        <source>app.ui.cli.lemma.add.inheritance</source>
+        <target>app.ui.cli.lemma.add.inheritance</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.cli.lemma.add.protonym" xml:space="preserve">
+        <source>app.ui.cli.lemma.add.protonym</source>
+        <target>app.ui.cli.lemma.add.protonym</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.cli.lemma.delete" xml:space="preserve">
+        <source>app.ui.cli.lemma.delete</source>
+        <target>app.ui.cli.lemma.delete</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.cli.lemma.remove" xml:space="preserve">
+        <source>app.ui.cli.lemma.remove</source>
+        <target>app.ui.cli.lemma.remove</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.cli.lemma.remove.inheritance" xml:space="preserve">
+        <source>app.ui.cli.lemma.remove.inheritance</source>
+        <target>app.ui.cli.lemma.remove.inheritance</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.cli.lemma.remove.protonym" xml:space="preserve">
+        <source>app.ui.cli.lemma.remove.protonym</source>
+        <target>app.ui.cli.lemma.remove.protonym</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.cli.lemma.rename" xml:space="preserve">
+        <source>app.ui.cli.lemma.rename</source>
+        <target>app.ui.cli.lemma.rename</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.cli.lemma.rename.to" xml:space="preserve">
+        <source>app.ui.cli.lemma.rename.to</source>
+        <target>app.ui.cli.lemma.rename.to</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.cli.reset" xml:space="preserve">
+        <source>app.ui.cli.reset</source>
+        <target>app.ui.cli.reset</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.cli.select" xml:space="preserve">
+        <source>app.ui.cli.select</source>
+        <target>app.ui.cli.select</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.cli.select.next" xml:space="preserve">
+        <source>app.ui.cli.select.next</source>
+        <target>app.ui.cli.select.next</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.cli.select.previous" xml:space="preserve">
+        <source>app.ui.cli.select.previous</source>
+        <target>app.ui.cli.select.previous</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.control" xml:space="preserve">
+        <source>app.ui.control</source>
+        <target>app.ui.control</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.control.event" xml:space="preserve">
+        <source>app.ui.control.event</source>
+        <target>app.ui.control.event</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.control.event.tap" xml:space="preserve">
+        <source>app.ui.control.event.tap</source>
+        <target>app.ui.control.event.tap</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.search" xml:space="preserve">
+        <source>app.ui.search</source>
+        <target>app.ui.search</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.search.did" xml:space="preserve">
+        <source>app.ui.search.did</source>
+        <target>app.ui.search.did</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.search.did.end" xml:space="preserve">
+        <source>app.ui.search.did.end</source>
+        <target>app.ui.search.did.end</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.search.did.start" xml:space="preserve">
+        <source>app.ui.search.did.start</source>
+        <target>app.ui.search.did.start</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.search.prompt" xml:space="preserve">
+        <source>twinkle twink sta</source>
+        <target>twinkle twink sta</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.search.query" xml:space="preserve">
+        <source>app.ui.search.query</source>
+        <target>app.ui.search.query</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.search.query.did" xml:space="preserve">
+        <source>app.ui.search.query.did</source>
+        <target>app.ui.search.query.did</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.search.query.did.change" xml:space="preserve">
+        <source>app.ui.search.query.did.change</source>
+        <target>app.ui.search.query.did.change</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.search.query.did.submit" xml:space="preserve">
+        <source>app.ui.search.query.did.submit</source>
+        <target>app.ui.search.query.did.submit</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.view" xml:space="preserve">
+        <source>app.ui.view</source>
+        <target>app.ui.view</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.view.did" xml:space="preserve">
+        <source>app.ui.view.did</source>
+        <target>app.ui.view.did</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.view.did.appear" xml:space="preserve">
+        <source>app.ui.view.did.appear</source>
+        <target>app.ui.view.did.appear</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="app.ui.view.did.disappear" xml:space="preserve">
+        <source>app.ui.view.did.disappear</source>
+        <target>app.ui.view.did.disappear</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="⌘ ⏎" xml:space="preserve">
+        <source>⌘ ⏎</source>
+        <target>⌘ ⏎</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
