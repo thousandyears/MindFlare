@@ -52,6 +52,7 @@
 		07EA97C827B286FC009284FA /* MindFlareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindFlareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07EA97CC27B286FC009284FA /* MindFlareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindFlareUITests.swift; sourceTree = "<group>"; };
 		07EA97CE27B286FC009284FA /* MindFlareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindFlareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A6CE9F428055D8400D9F5C2 /* Library */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Library; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +85,10 @@
 		07EA97A127B286FB009284FA = {
 			isa = PBXGroup;
 			children = (
-				07EA97E427B28B51009284FA /* Frameworks */,
 				07EA97AC27B286FB009284FA /* MindFlare */,
 				07EA97C127B286FC009284FA /* MindFlareTests */,
 				07EA97CB27B286FC009284FA /* MindFlareUITests */,
+				4A6CE9F328055D8400D9F5C2 /* Packages */,
 				07EA97AB27B286FB009284FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -142,11 +143,12 @@
 			path = MindFlareUITests;
 			sourceTree = "<group>";
 		};
-		07EA97E427B28B51009284FA /* Frameworks */ = {
+		4A6CE9F328055D8400D9F5C2 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				4A6CE9F428055D8400D9F5C2 /* Library */,
 			);
-			name = Frameworks;
+			name = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
