@@ -181,16 +181,18 @@ struct ColumnCell: View {
             app.document[id].browser.column.cell[ui.lemma].event.tap >> events
         }
         .contextMenu {
-            HStack{
-                Group{
-                    Button(\.edit.rename, events)
-                    Button(\.edit.inherit, events)
-                    Button(\.edit.synonym, events)
-                }
-                Group{
-                    Button(\.edit.cut, events)
-                    Button(\.edit.copy.lemma, events)
-                    Button(\.edit.copy.lexicon, events)
+            if !ui.isIherited {
+                HStack{
+                    Group{
+                        Button(\.edit.rename, events)
+                        Button(\.edit.inherit, events)
+                        Button(\.edit.synonym, events)
+                    }
+                    Group{
+                        Button(\.edit.cut, events)
+                        Button(\.edit.copy.lemma, events)
+                        Button(\.edit.copy.lexicon, events)
+                    }
                 }
             }
         }
