@@ -177,6 +177,23 @@ struct ColumnCell: View {
         .onTapGesture {
             app.document[id].browser.column.cell[ui.lemma].event.tap >> events
         }
+        .onRightClick{
+            app.document[id].browser.column.cell[ui.lemma].event.tap >> events
+        }
+        .contextMenu {
+            HStack{
+                Group{
+                    Button(\.edit.rename, events)
+                    Button(\.edit.inherit, events)
+                    Button(\.edit.synonym, events)
+                }
+                Group{
+                    Button(\.edit.cut, events)
+                    Button(\.edit.copy.lemma, events)
+                    Button(\.edit.copy.lexicon, events)
+                }
+            }
+        }
         
         // TODO: refactor ↓
         
@@ -223,5 +240,72 @@ struct ColumnCell: View {
             nsColor: ui.isIherited ? .unemphasizedSelectedTextBackgroundColor :
                     .selectedContentBackgroundColor.withAlphaComponent(ui.isSynonym ? 0.5 : 1)
         )
+    }
+}
+
+private extension Button where Label == Text {
+    
+    init<A: L>(_ event: KeyPath<I_app_menu, A>, _ events: Events) {
+        self.init(A.localized) {
+            
+            app.menu[keyPath: event] >> events
+        }
+    }
+}
+
+
+extension View {
+    
+    func onRightClick(_ action: @escaping () -> ()) -> some View {
+        self.modifier(RightClickableModifier(action: action))
+    }
+}
+
+/// SwiftUI has no notion of a "right click" currently.
+/// This modifier therefore wraps an NSVIew to perform and action on right mouse down.
+struct RightClickableModifier: ViewModifier {
+    
+    let action: () -> ()
+    
+    func body(content: Content) -> some View {
+        ZStack{
+            RightClickableView(action)
+            content
+        }
+    }
+}
+
+private struct RightClickableView: NSViewRepresentable {
+    
+    let rightClickAction: () -> ()
+    
+    init(_ rightClickAction: @escaping () -> ()) {
+        self.rightClickAction = rightClickAction
+    }
+    
+    func updateNSView(_ nsView: RightClickableNSView, context: NSViewRepresentableContext<RightClickableView>) {
+    }
+    
+    func makeNSView(context: Context) -> RightClickableNSView {
+        RightClickableNSView(rightClickAction)
+    }
+}
+
+private class RightClickableNSView: NSView {
+
+    let rightClickAction: () -> ()
+    
+    init(_ rightClickAction: @escaping () -> ()) {
+        self.rightClickAction = rightClickAction
+        super.init(frame: .zero)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    override func rightMouseDown(with theEvent: NSEvent) {
+        rightClickAction()
+        super.rightMouseDown(with: theEvent)
     }
 }
