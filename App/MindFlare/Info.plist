@@ -12,7 +12,7 @@
 			<key>CFBundleTypeIconFile</key>
 			<string>MindFlareDocument</string>
 			<key>CFBundleTypeIconSystemGenerated</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>CFBundleTypeName</key>
 			<string>Lexicon</string>
 			<key>CFBundleTypeOSTypes</key>
@@ -29,6 +29,14 @@
 			</array>
 			<key>NSUbiquitousDocumentUserActivityType</key>
 			<string>com.github.screensailor.lexicon</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>taskpaper</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>TaskPaper</string>
 		</dict>
 	</array>
 	<key>UTExportedTypeDeclarations</key>
