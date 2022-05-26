@@ -149,6 +149,7 @@ public extension I_app_menu_edit {
 	var `commit`: L_app_menu_edit_commit { .init("\(__).commit") }
 	var `copy`: L_app_menu_edit_copy { .init("\(__).copy") }
 	var `cut`: L_app_menu_edit_cut { .init("\(__).cut") }
+	var `find`: L_app_menu_edit_find { .init("\(__).find") }
 	var `inherit`: L_app_menu_edit_inherit { .init("\(__).inherit") }
 	var `paste`: L_app_menu_edit_paste { .init("\(__).paste") }
 	var `recording`: L_app_menu_edit_recording { .init("\(__).recording") }
@@ -197,6 +198,10 @@ public final class L_app_menu_edit_cut: L, I_app_menu_edit_cut {
 	public override class var localized: String { NSLocalizedString("app.menu.edit.cut", comment: "") }
 }
 public protocol I_app_menu_edit_cut: I {}
+public final class L_app_menu_edit_find: L, I_app_menu_edit_find {
+	public override class var localized: String { NSLocalizedString("app.menu.edit.find", comment: "") }
+}
+public protocol I_app_menu_edit_find: I {}
 public final class L_app_menu_edit_inherit: L, I_app_menu_edit_inherit {
 	public override class var localized: String { NSLocalizedString("app.menu.edit.inherit", comment: "") }
 }
@@ -241,6 +246,13 @@ public final class L_app_menu_edit_synonym: L, I_app_menu_edit_synonym {
 	public override class var localized: String { NSLocalizedString("app.menu.edit.synonym", comment: "") }
 }
 public protocol I_app_menu_edit_synonym: I {}
+public extension I_app_menu_edit_synonym {
+	var `find`: L_app_menu_edit_synonym_find { .init("\(__).find") }
+}
+public final class L_app_menu_edit_synonym_find: L, I_app_menu_edit_synonym_find {
+	public override class var localized: String { NSLocalizedString("app.menu.edit.synonym.find", comment: "") }
+}
+public protocol I_app_menu_edit_synonym_find: I {}
 public final class L_app_menu_file: L, I_app_menu_file {
 	public override class var localized: String { NSLocalizedString("app.menu.file", comment: "") }
 }

@@ -22,17 +22,24 @@ struct Editor: View {
 
     var body: some View {
         
-        VStack(alignment: .leading, spacing: 8) {
-            CLIView(text: my.ui.text)
-            ColumnsView(columns: my.ui.columns)
-            PropertiesView(ui: my.ui.properties)
+        ZStack() {
+            VStack(alignment: .leading, spacing: 8) {
+                CLIView(text: my.ui.text)
+                ColumnsView(columns: my.ui.columns)
+                PropertiesView(ui: my.ui.properties)
+            }
+            .padding(.horizontal)
+            .padding(.bottom)
+            
+            if my.isSearching {
+                SearchView(my.doc.editor.search, in: Binding(get: { my.cli.lemma.lexicon }, set: { _ in }))
+            }
         }
 		.cliEvents(for: my.doc.browser.cli)
-		.searchable(my.doc.editor.search, in: Binding(get: { my.cli.lemma.lexicon }, set: { _ in }))
+//		.searchable(my.doc.editor.search, in: Binding(get: { my.cli.lemma.lexicon }, set: { _ in }))
 		
         .animation(animated ? .default : nil, value: my.cli)
-		.padding(.horizontal)
-        .padding(.bottom)
+		
         
         .fileExporter(
 			isPresented: $isExporting,

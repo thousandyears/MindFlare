@@ -154,14 +154,14 @@ import LexiconGenerators
 				Button(\.edit.paste.sentences, events).keyboardShortcut("v", modifiers: [.option, .command])
 			}
 			
-			// TODO: ↓
-			// CommandGroup(after: .textEditing) {
-			//     if my.isRecording {
-			//         Button(\.edit.recording.stop, events)
-			//     } else if case .some = my.focused {
-			//         Button(\.edit.recording.start, events)
-			//     }
-			// }
+			 CommandGroup(after: .textEditing) {
+                 Button(\.edit.find, events).keyboardShortcut("f", modifiers: .command)
+//			     if my.isRecording {
+//			         Button(\.edit.recording.stop, events)
+//			     } else if case .some = my.focused {
+//			         Button(\.edit.recording.start, events)
+//			     }
+			 }
 			
 			// TODO: ⌘ F for Find
 			

@@ -11,6 +11,7 @@ extension Editor.Object {
     var isViewing: Bool { uiContext == .viewing }
     var isRenaming: Bool { uiContext == .renaming }
     var isBrowsing: Bool { uiContext == .inheriting }
+    var isSearching: Bool { uiContext == .searching }
 	
     var isFocused: Bool { focusedDocumentID == id }
 	var isInGraphNode: Bool { cli.lemma.isGraphNode }
@@ -298,6 +299,14 @@ extension Editor.Object {
                 return
             }
             my.uiContext = .synonym
+        }
+        
+        app.menu.edit.find >> then { my, event in
+            my.uiContext = .searching
+        }
+        
+        editor.search.query.did.submit >> then { my, event in
+            my.uiContext = .viewing
         }
     }
 

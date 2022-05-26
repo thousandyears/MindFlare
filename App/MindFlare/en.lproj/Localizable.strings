@@ -29,6 +29,9 @@
 "app.menu.edit.recording.stop" = "Stop Recording";
 
 /* No comment provided by engineer. */
+"app.menu.edit.find" = "Find...";
+
+/* No comment provided by engineer. */
 "app.menu.edit.rename" = "Rename...";
 
 /* No comment provided by engineer. */

@@ -14,6 +14,7 @@ extension CLI {
             case renaming
             case inheriting
             case synonym
+            case searching
         }
 
         struct Editor: Equatable {

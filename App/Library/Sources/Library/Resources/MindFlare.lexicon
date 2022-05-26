@@ -36,6 +36,7 @@ app:
 				lemma:
 				lexicon:
 			cut:
+			find:
 			inherit:
 			paste:
 				default:
@@ -45,6 +46,7 @@ app:
 				stop:
 			rename:
 			synonym:
+				find:
 		file:
 			export:
 				json:
