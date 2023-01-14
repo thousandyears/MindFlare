@@ -177,6 +177,23 @@ struct ColumnCell: View {
         .onTapGesture {
             app.document[id].browser.column.cell[ui.lemma].event.tap >> events
         }
+        .onRightClick{
+            app.document[id].browser.column.cell[ui.lemma].event.tap >> events
+        }
+        .contextMenu {
+            if my.uiContext == .viewing, !ui.isIherited {
+                VStack{
+                    Button(\.edit.rename, events)
+                    Button(\.edit.inherit, events)
+                    Button(\.edit.synonym, events)
+                    Divider()
+                    Button(\.edit.cut, events)
+                    Button(\.edit.copy.lemma, events)
+                    Button(\.edit.copy.lexicon, events)
+                    Button(\.edit.paste.default, events)
+                }
+            }
+        }
         
         // TODO: refactor ↓
         
@@ -223,5 +240,15 @@ struct ColumnCell: View {
             nsColor: ui.isIherited ? .unemphasizedSelectedTextBackgroundColor :
                     .selectedContentBackgroundColor.withAlphaComponent(ui.isSynonym ? 0.5 : 1)
         )
+    }
+}
+
+private extension Button where Label == Text {
+    
+    init<A: L>(_ event: KeyPath<I_app_menu, A>, _ events: Events) {
+        self.init(A.localized) {
+            
+            app.menu[keyPath: event] >> events
+        }
     }
 }
