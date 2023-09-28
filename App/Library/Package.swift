@@ -12,7 +12,7 @@ let package = Package(
 	],
 	dependencies: [
 		.package(url: "https://github.com/screensailor/Hope", .branch("trunk")),
-		.package(url: "https://github.com/screensailor/Lexicon", .branch("trunk")),
+		.package(url: "https://github.com/thousandyears/Lexicon", .branch("trunk")),
 		.package(url: "https://github.com/apple/swift-collections", from: "1.0.0"),
 		.package(url: "https://github.com/apple/swift-algorithms", from: "1.0.0"),
 	],

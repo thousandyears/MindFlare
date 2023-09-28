@@ -18,7 +18,7 @@ extension Editor {
 		@Binding var animated: Bool
 		
 		@State var my: Editor.Object?
-		
+
 		var body: some View {
 			
 			ZStack {
@@ -27,17 +27,14 @@ extension Editor {
 						.as(my.doc.editor.view)
 						.environmentObject(my)
 						.focusedSceneValue(\.focusedDocumentID, id)
-				}
-				else {
-					ZStack{}.task {
-						my = await Editor.Object(id: id, document: document)
-					}
-					.searchable(text: .constant(""))
+                        .environment(\.focusedDocumentID, id)
 				}
 			}
 			.as(app.document[id].view)
 			.environment(\.documentID, id)
-
+            .task {
+                my = await Editor.Object(id: id, document: document)
+            }
 			.frame(
 				minWidth: 515, maxWidth: .infinity,
 				minHeight: 350, maxHeight: .infinity

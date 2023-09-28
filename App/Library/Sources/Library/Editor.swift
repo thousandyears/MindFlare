@@ -56,5 +56,9 @@ struct Editor: View {
 		.onChange(of: focusedDocumentID) { focusedDocumentID in
 			my.focusedDocumentID = focusedDocumentID
 		}
+
+        .onAppear {
+            my.focusedDocumentID = focusedDocumentID
+        }
     }
 }
